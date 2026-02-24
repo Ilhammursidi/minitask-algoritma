@@ -3,5 +3,5 @@ terdapat variabel x, buat algoritma untuk menentukan apakah x bilangan ganjil at
 1. mulai
 2. deklarasikan variabel x sebagai angka
 3. jika x modulo 2 sama dengan 0 maka x adalah bilangan genap
-4. jika tidak maka x adalah bilangan ganjil
+4. jika "tidak" maka x adalah bilangan ganjil
 5. selesai
