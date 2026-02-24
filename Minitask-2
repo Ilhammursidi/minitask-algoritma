@@ -1,9 +1,9 @@
 menghitung luas dan keliling lingkaran
 ----------------------------------------------------------------------------
 1. mulai
-2. sediakan variabel phi = 3,14
+2. sediakan variabel phi
 3. sediakan variabel r atau jari-jari
 4. tentukan luas dengan cara phi x jari-jari x jari-jari 
-5. dan tentukan kelilingnya dengan cara 2 x phi x jari-jari
+5. tentukan kelilingnya dengan cara 2 x phi x jari-jari
 6. cetak luas dan jari-jari
 7. selesai
