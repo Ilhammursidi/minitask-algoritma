@@ -7,11 +7,11 @@ INPUT(penggunaanListrik)
 200 kwh keatas <- 5000
 IF penggunaanListrik >= 100 kwh
   THEN 
-    result = penggunaanListrik*3000
-    IF penggunaanListrik >= 201 kwh
+    result <- penggunaanListrik*3000
+    IF penggunaanListrik >=201
       THEN 
-        result = penggunaanListrik*5000
+        result <- penggunaanListrik*5000
       ENDIF
   ELSE
-    result = penggunaanListrik*2000
+    result <- penggunaanListrik*2000
 ENDIF
