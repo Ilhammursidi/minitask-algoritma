@@ -1,14 +1,13 @@
 FUNCTION besaranPenggunaan
-DECLARE penggunaanListrik : INTEGER
+  DECLARE penggunaanListrik : INTEGER
 BEGIN
-INPUT(penggunaanListrik)
-IF penggunaanListrik >= 100
-  THEN 
-    result <- penggunaanListrik*3000
-    IF penggunaanListrik >=201
+  INPUT(penggunaanListrik)
+    IF penggunaanListrik < 100
       THEN 
+        result <- penggunaanListrik*2000
+      ELSEIF penggunaanListrik < 200
+        result <- penggunaanListrik*3000
+      ELSE
         result <- penggunaanListrik*5000
-      ENDIF
-  ELSE
-    result <- penggunaanListrik*2000
-ENDIF
+    ENDIF
+END
