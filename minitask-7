@@ -1,0 +1,17 @@
+FUNCTION besaranPenggunaan
+DECLARE penggunaanListrik : INTEGER
+BEGIN
+INPUT(penggunaanListrik)
+100 kwh <- 2000
+100 kwh - 200 kwh <- 3000
+200 kwh keatas <- 5000
+IF penggunaanListrik >= 100 kwh
+  THEN 
+    result = penggunaanListrik*3000
+    IF penggunaanListrik >= 201 kwh
+      THEN 
+        result = penggunaanListrik*5000
+      ENDIF
+  ELSE
+    result = penggunaanListrik*2000
+ENDIF
