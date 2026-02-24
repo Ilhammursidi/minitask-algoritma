@@ -1,0 +1,18 @@
+FUNCTION MenghitungDiskon
+DECLARE TotalPembelian : integer
+        diskon: float
+BEGIN
+INPUT (TotalPembelian)
+IF TotalPembelian <= 500.000
+  THEN 
+    TotalPembelian - 0.05
+  IF TotalPembelian >= 1.000.000
+    THEN
+      TotalPembelian - 0.10
+    ELSE
+      TotalPembelian - 0.05
+    ENDIF
+  ELSE
+    TotalPembelian - 0
+ENDIF
+  
